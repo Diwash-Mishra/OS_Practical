@@ -1,0 +1,28 @@
+Title: Ubuntu installation and configuration on windows.
+Objective: To install Ubuntu and configure it.
+    It is a comprehensive guide for windows users to install and configure Ubuntua popular
+    linux distribution on the windows system.
+
+Procedure:
+1. Turn on features on windows
+    a.Search for "turn windows features on or off" in a Search bar and open it.
+    b.Select the checkbox corresponding to virtual machine platform and windows
+        subsystem for linux.
+    c.Click on ok and restart your pc.
+2. Installing WSL and Ubuntu
+    a. Run windows powershell as administrator.
+    b. Type:"WSL--Install" and click on the enter button.
+    c. Restart the pc if required.
+    d. Search "Ubuntu" in the windows store and install the app.
+3. configurethe Ubuntu
+    a. Open the Ubuntu app.
+    b. set the UNIX username and password.
+    c. Update Ubuntu by running "sudo apt update"&&"sudo apt full-update".
+4. Install the gcc compiler
+    To install gcc compiler we have to execute the command "sudo apt-get install gcc".
+
+Conclusion:-
+        By following this step we can install and configure Ubuntu in windows subsystem
+        for linux(WSL) which  offers flexibility through dual-booting, virtualization,
+         or WSL. Users can choose the method based on their needs for performance, 
+         convenience, and integration between the two operating systems.
